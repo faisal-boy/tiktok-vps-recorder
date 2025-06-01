@@ -1,0 +1,13 @@
+import os
+from time import sleep
+
+def main():
+    print("Bot TikTok perekam berjalan...")
+
+    while True:
+        # Simulasi proses perekaman video TikTok
+        print("Merekam video TikTok...")
+        sleep(10)  # jeda 10 detik
+
+if __name__ == "__main__":
+    main()
